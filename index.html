@@ -1,492 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="description"
-      content="Start your learning journey with iCoders."
-    />
-    <meta name="author" content="Devcrud" />
-    <title>iCoders</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Start your learning journey with iCoders." />
+  <meta name="author" content="Devcrud" />
+  <!-- <title>iCoders</title>
     .fonts{
       color:#282E54
-    }
-    <!-- font icons -->
-    <link
-      rel="stylesheet"
-      href="assets/vendors/themify-icons/css/themify-icons.css"
-    />
+    } -->
+  <!-- font icons -->
+  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css" />
 
-    <!-- owl carousel -->
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.carousel.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.theme.default.css"
-    />
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.css" />
+  <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.css" />
 
-    <!-- Bootstrap + Ollie main styles -->
-    <link rel="stylesheet" href="assets/css/ollie.css" />
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+  <!-- Bootstrap + Ollie main styles -->
+  <link rel="stylesheet" href="assets/css/ollie.css" />
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <nav
-      id="scrollspy"
-      class="navbar navbar-light bg-light navbar-expand-lg fixed-top"
-      data-spy="affix"
-      data-offset-top="20"
-    >
+  <nav id="scrollspy" class="navbar navbar-light bg-light navbar-expand-lg fixed-top" data-spy="affix"
+    data-offset-top="20">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" alt="" class="brand-img" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testmonial">Testmonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item ml-0 ml-lg-4">
+            <a class="nav-link btn btn-primary" href="https://bit.ly/3t4aSkF">Join Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="header">
+    <div class="overlay"></div>
+
+    <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="assets/imgs/logo.png" alt="" class="brand-img"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="carousel-title">iCoders</h1>
+              <p class="carousel-caption">BCREC's Official Tech Club</p>
+              <button class="btn btn-primary btn-rounded"
+                onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth', block: 'start'})">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
+    <div class="infos container mb-4 mb-md-2">
+      <div class="title">
+        <h6 class="subtitle font-weight-normal">Are you looking for</h6>
+        <span class="txt-type" data-wait="3000" data-words='["a direction ?", "a mentor ?", "a community ?"]'
+          id="my-demo1"></span><span class="my-cursor">|</span>
+      </div>
+      <div class="socials text-right">
+        <div class="row justify-content-between">
+          <div class="col">
+            <h6 class="subtitle font-weight-normal mb-2">Social Media</h6>
+            <div class="social-links">
+              <a href="https://www.facebook.com/iCoders" class="link pr-1"><i class="ti-facebook"></i></a>
+              <a href="https://www.linkedin.com/company/icoders" class="link pr-1"><i class="ti-linkedin"></i></a>
+              <a href="https://www.instagram.com/bcrec_icoders/" class="link pr-1"><i class="ti-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="row align-items-center mr-auto">
+        <div class="col md">
+          <h6 class="xs-font mb-0">Get to know more</h6>
+          <h3 class="section-title">About Us</h3>
+          <p>
+            Technology has been at the forefront of human evolution since
+            times immemorial and to enhance this ideology among students ...
+            found the official tech club of BC roy Engineering College,
+            Durgapur named iCoders. Our aim is to guide spradling students
+            with lates technology and skills. Through our club students get
+            access to multiple contest and also get a chance to boost up their
+            knowledge with our weekly coding classes and frequent bootcamps.
+            Today we have over 1000 students enrolled with us and have
+            conducter over 40 events. This has been possible with the
+            collaborative and inquisitive student members who are backbone for
+            this growth. iCoders have a lot of plans and goals for coming
+            year, here are some that we have lined up
+          </p>
+          <h4>Goals:</h4>
+          <ul>
+            <li>
+              <p class="goals-p">Strengthen the technical knowledge.</p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+            <li>
+              <p class="goals-p">
+                To help them perform in this competitive environment.
+              </p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#team">Team</a>
+            <li>
+              <p class="goals-p">
+                To improve the quality through spreading knowledge. By growing
+                the competitive coding culture.
+              </p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#courses">Courses</a>
+            <li>
+              <p class="goals-p">
+                To train, educate, for forthcoming technological future.
+              </p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testmonial">Testmonial</a>
+            <li>
+              <p class="goals-p">
+                To organize various coding competitions, workshops, and
+                seminars to help students excel in coding.
+              </p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item ml-0 ml-lg-4">
-              <a class="nav-link btn btn-primary" href="https://bit.ly/3t4aSkF"
-                >Join Us</a
-              >
+            <li>
+              <p class="goals-p">
+                The students would benefited from this club and will have fun
+                while learning and doing projects.
+              </p>
             </li>
           </ul>
         </div>
+        <img class="aboutImg" src="./assets/imgs/about.png" alt="" />
       </div>
-    </nav>
+    </div>
+  </section>
+  <section id="team" class="team-members px-4 py-5">
+    <div class="tm-header container py-4">
+      <h3 class="section-title">iCoders Core Team</h3>
+      <h6 class="xs-font mb-0 ml-5" style="display: flex; flex-direction: column">
+        <span>
+          “I think it’s very important to have a feedback loop, where you’re
+          constantly thinking about what you’ve done and how you could be
+          doing it better.”</span>
+        <span class="mr-5 pr-5" style="text-align: end">– Elon Musk</span>
+      </h6>
+    </div>
+    <div class="card-parent py-2">
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title">Swagata Roy</h1>
+          <ul class="handles ml-2">
+            <a href="https://www.linkedin.com/in/swagataroy09/">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+            <a href="https://www.instagram.com/_swagataroy_/">
+              <li><i class="ti-instagram"></i></li>
+            </a>
+          </ul>
+          <p>President</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/SwagataRoy.jpg" />
+      </div>
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title">Sourav Jana</h1>
+          <ul class="handles">
+            <a href="https://www.linkedin.com/in/sourav-jana15/">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+          </ul>
+          <p>Vice President</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/SouravJana.jpg" />
+      </div>
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title" style="font-size: 18.3px">Rangan Mukherjee</h1>
+          <ul class="handles">
+            <a href="https://www.linkedin.com/in/rangan-mukherjee-682771201/">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+            <a href="https://www.instagram.com/justrangan/">
+              <li><i class="ti-instagram"></i></li>
+            </a>
+          </ul>
+          <p>Secratary</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/RanganMukherjee.jpg" />
+      </div>
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title">Sanskar Keshri</h1>
+          <ul class="handles">
+            <a href="https://www.linkedin.com/in/sanskar-keshri-3700b120b">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+            <a href="https://www.instagram.com/the_sanskar_keshri/">
+              <li><i class="ti-instagram"></i></li>
+            </a>
+          </ul>
+          <p>Event Manager</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/SanskarKeshri.JPG" />
+      </div>
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title">Rahul Sinha</h1>
+          <ul class="handles ml-2">
+            <a href="https://www.linkedin.com/in/rahul-sinha-b402111b7/">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+            <a href="https://instagram.com/rahul_sinha12345/">
+              <li><i class="ti-instagram"></i></li>
+            </a>
+          </ul>
+          <p>Treasurer</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/RahulSinha.jpg" />
+      </div>
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title" style="font-size: 17.78px">Abhishek Dasgupta</h1>
+          <ul class="handles">
+            <a href="https://www.linkedin.com/in/abhishek-dasgupta-819211147">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+            <a href="https://www.instagram.com/abhishek_3002_/">
+              <li><i class="ti-instagram"></i></li>
+            </a>
+          </ul>
+          <p>Startup Coordinator</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/Abhishek.jpeg" />
+      </div>
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title">Dolly Kumari</h1>
+          <ul class="handles">
+            <a href="https://www.linkedin.com/in/dollykumari9798/">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+            <a href="https://www.linkedin.com/in/dollykumari9798/">
+              <li><i class="ti-instagram"></i></li>
+            </a>
+          </ul>
+          <p>Project Coordinator</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/DollyKumari.jpg" />
+      </div>
 
-    <header id="home" class="header">
-      <div class="overlay"></div>
+      <div class="d-flex align-items-start card mb-4">
+        <div class="card-info pb-2">
+          <h1 class="title">Subhajit Gorai</h1>
+          <ul class="handles">
+            <a href="https://www.linkedin.com/in/subhajit-gorai/">
+              <li><i class="ti-linkedin"></i></li>
+            </a>
+          </ul>
+          <p>PR Manager</p>
+        </div>
+        <img class="team-pic" src="./assets/imgs/SubhojitGorai.jpg" />
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h6 class="xs-font mb-0" style="color: transparent">.</h6>
+      <h3 class="section-title">iCoders Figures</h3>
 
-      <div
-        id="header-carousel"
-        class="carousel slide carousel-fade"
-        data-ride="carousel"
-      >
-        <div class="container">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="carousel-caption d-none d-md-block">
-                <h1 class="carousel-title">iCoders</h1>
-                <p class="carousel-caption">BCREC's Official Tech Club</p>
-                <button
-                  class="btn btn-primary btn-rounded"
-                  onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth', block: 'start'})"
-                >
-                  Learn More
-                </button>
-              </div>
+      <div class="row text-center mx-5" style="flex-wrap: wrap; justify-content: space-evenly">
+        <div class="flip-card my-4">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <span class="fc-title">Student Community</span>
+              <img src="./assets/imgs/student.JPG" alt="students" />
+            </div>
+
+            <div class="flip-card-back">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Necessitatibus accusantium minus maiores nihil minima, iste
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card my-4">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <span style="" class="fc-title">Workshops & Seminars</span>
+              <img src="./assets/imgs/Workshop.JPG" alt="students" />
+            </div>
+
+            <div class="flip-card-back">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Necessitatibus accusantium minus maiores nihil minima, iste
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card my-4">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <span style="" class="fc-title">iCoders Team</span>
+              <img src="./assets/imgs/iCteam.JPG" alt="students" />
+            </div>
+
+            <div class="flip-card-back">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Necessitatibus accusantium minus maiores nihil minima, iste
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="infos container mb-4 mb-md-2">
-        <div class="title">
-          <h6 class="subtitle font-weight-normal">Are you looking for</h6>
-          <span
-            class="txt-type"
-            data-wait="3000"
-            data-words='["a direction ?", "a mentor ?", "a community ?"]'
-            id="my-demo1"
-          ></span
-          ><span class="my-cursor">|</span>
-        </div>
-        <div class="socials text-right">
-          <div class="row justify-content-between">
-            <div class="col">
-              <h6 class="subtitle font-weight-normal mb-2">Social Media</h6>
-              <div class="social-links">
-                <a href="https://www.facebook.com/iCoders" class="link pr-1"
-                  ><i class="ti-facebook"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/company/icoders"
-                  class="link pr-1"
-                  ><i class="ti-linkedin"></i
-                ></a>
-                <a
-                  href="https://www.instagram.com/bcrec_icoders/"
-                  class="link pr-1"
-                  ><i class="ti-instagram"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+  <section class="section" id="courses">
+    <div class="container" style="margin: 10px;">
+      <style>
+        .text_colors {
+          color: #282E54 font-family=Secular One
+        }
+      </style>
+      <h6 class="xs-font mb-0">To get started, join!</h6>
+      <h3 class="section-title pb-4">Our Courses</h3>
+    </div>
 
-    <section class="section" id="about">
-      <div class="container">
-        <div class="row align-items-center mr-auto">
-          <div class="col md">
-            <h6 class="xs-font mb-0">Get to know more</h6>
-            <h3 class="section-title">About Us</h3>
-            <p>
-              Technology has been at the forefront of human evolution since
-              times immemorial and to enhance this ideology among students ...
-              found the official tech club of BC roy Engineering College,
-              Durgapur named iCoders. Our aim is to guide spradling students
-              with lates technology and skills. Through our club students get
-              access to multiple contest and also get a chance to boost up their
-              knowledge with our weekly coding classes and frequent bootcamps.
-              Today we have over 1000 students enrolled with us and have
-              conducter over 40 events. This has been possible with the
-              collaborative and inquisitive student members who are backbone for
-              this growth. iCoders have a lot of plans and goals for coming
-              year, here are some that we have lined up
-            </p>
-            <h4>Goals:</h4>
-            <ul>
-              <li>
-                <p class="goals-p">Strengthen the technical knowledge.</p>
-              </li>
-              <li>
-                <p class="goals-p">
-                  To help them perform in this competitive environment.
-                </p>
-              </li>
-              <li>
-                <p class="goals-p">
-                  To improve the quality through spreading knowledge. By growing
-                  the competitive coding culture.
-                </p>
-              </li>
-              <li>
-                <p class="goals-p">
-                  To train, educate, for forthcoming technological future.
-                </p>
-              </li>
-              <li>
-                <p class="goals-p">
-                  To organize various coding competitions, workshops, and
-                  seminars to help students excel in coding.
-                </p>
-              </li>
-              <li>
-                <p class="goals-p">
-                  The students would benefited from this club and will have fun
-                  while learning and doing projects.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <img class="aboutImg" src="./assets/imgs/about.png" alt="" />
-        </div>
-      </div>
-    </section>
-    <section id="team" class="team-members px-4 py-5">
-      <div class="tm-header container py-4">
-        <h3 class="section-title">iCoders Core Team</h3>
-        <h6
-          class="xs-font mb-0 ml-5"
-          style="display: flex; flex-direction: column"
-        >
-          <span>
-            “I think it’s very important to have a feedback loop, where you’re
-            constantly thinking about what you’ve done and how you could be
-            doing it better.”</span
-          >
-          <span class="mr-5 pr-5" style="text-align: end">– Elon Musk</span>
-        </h6>
-      </div>
-      <div class="card-parent py-2">
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title">Swagata Roy</h1>
-            <ul class="handles ml-2">
-              <a href="https://www.linkedin.com/in/swagataroy09/"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-              <a href="https://www.instagram.com/_swagataroy_/"
-                ><li><i class="ti-instagram"></i></li
-              ></a>
-            </ul>
-            <p>President</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/SwagataRoy.jpg" />
-        </div>
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title">Sourav Jana</h1>
-            <ul class="handles">
-              <a href="https://www.linkedin.com/in/sourav-jana15/"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-            </ul>
-            <p>Vice President</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/SouravJana.jpg" />
-        </div>
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title" style="font-size: 18.3px">Rangan Mukherjee</h1>
-            <ul class="handles">
-              <a href="https://www.linkedin.com/in/rangan-mukherjee-682771201/"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-              <a href="https://www.instagram.com/justrangan/"
-                ><li><i class="ti-instagram"></i></li
-              ></a>
-            </ul>
-            <p>Secratary</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/RanganMukherjee.jpg" />
-        </div>
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title">Sanskar Keshri</h1>
-            <ul class="handles">
-              <a href="https://www.linkedin.com/in/sanskar-keshri-3700b120b"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-              <a href="https://www.instagram.com/the_sanskar_keshri/"
-                ><li><i class="ti-instagram"></i></li
-              ></a>
-            </ul>
-            <p>Event Manager</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/SanskarKeshri.JPG" />
-        </div>
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title">Rahul Sinha</h1>
-            <ul class="handles ml-2">
-              <a href="https://www.linkedin.com/in/rahul-sinha-b402111b7/"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-              <a href="https://instagram.com/rahul_sinha12345/"
-                ><li><i class="ti-instagram"></i></li
-              ></a>
-            </ul>
-            <p>Treasurer</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/RahulSinha.jpg" />
-        </div>
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title" style="font-size: 17.78px">Abhishek Dasgupta</h1>
-            <ul class="handles">
-              <a href="https://www.linkedin.com/in/abhishek-dasgupta-819211147"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-              <a href="https://www.instagram.com/abhishek_3002_/"
-                ><li><i class="ti-instagram"></i></li
-              ></a>
-            </ul>
-            <p>Startup Coordinator</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/Abhishek.jpeg" />
-        </div>
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title">Dolly Kumari</h1>
-            <ul class="handles">
-              <a href="https://www.linkedin.com/in/dollykumari9798/"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-              <a href="https://www.linkedin.com/in/dollykumari9798/"
-                ><li><i class="ti-instagram"></i></li
-              ></a>
-            </ul>
-            <p>Project Coordinator</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/DollyKumari.jpg" />
-        </div>
+    <div id="owl-portfolio" class="owl-carousel owl-theme mt-4">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScR1Bw7gNcRrmSUxJ8OBqOEGHgpRJxu-nu9EBQry-eN_7F8wQ/viewform?usp=sf_link"
+        class="item expertises-item">
+        <img style="box-shadow: 5px 10px #0000;border-radius: 10px;" src="assets/imgs/courses/C.png"
+          alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+          class="box-shadow" />
+        <div class="course-title mb-2 pt-2">
+          <h5 class=".text_colors" style="color:#282E54">C Programming <br>Language</h5>
 
-        <div class="d-flex align-items-start card mb-4">
-          <div class="card-info pb-2">
-            <h1 class="title">Subhajit Gorai</h1>
-            <ul class="handles">
-              <a href="https://www.linkedin.com/in/subhajit-gorai/"
-                ><li><i class="ti-linkedin"></i></li
-              ></a>
-            </ul>
-            <p>PR Manager</p>
-          </div>
-          <img class="team-pic" src="./assets/imgs/SubhojitGorai.jpg" />
+          <p style="float:left">
+            Wed <br />
+            & <br />
+            Sat
+          </p>
         </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <h6 class="xs-font mb-0" style="color: transparent">.</h6>
-        <h3 class="section-title">iCoders Figures</h3>
-
-        <div
-          class="row text-center mx-5"
-          style="flex-wrap: wrap; justify-content: space-evenly"
-        >
-          <div class="flip-card my-4">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="fc-title">Student Community</span>
-                <img src="./assets/imgs/student.JPG" alt="students" />
-              </div>
-
-              <div class="flip-card-back">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus accusantium minus maiores nihil minima, iste
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card my-4">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span style="" class="fc-title">Workshops & Seminars</span>
-                <img src="./assets/imgs/Workshop.JPG" alt="students" />
-              </div>
-
-              <div class="flip-card-back">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus accusantium minus maiores nihil minima, iste
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card my-4">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span style="" class="fc-title">iCoders Team</span>
-                <img src="./assets/imgs/iCteam.JPG" alt="students" />
-              </div>
-
-              <div class="flip-card-back">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus accusantium minus maiores nihil minima, iste
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="course-body">
+          <h6>Educator: <span>Rahul Sinha, Sanskar Keshri and Sourav Jana</span></h6>
         </div>
-      </div>
-    </section>
+      </a>
 
-    <section class="section" id="courses">
-      <div class="container"  style="margin: 10px;">
-        <style>
-          .text_colors{
-           color:#282E54
-           font-family=Secular One
-          }
-        </style>
-        <h6 class="xs-font mb-0">To get started, join!</h6>
-        <h3 class="section-title pb-4">Our Courses</h3>
-      </div>
-
-      <div id="owl-portfolio" class="owl-carousel owl-theme mt-4">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScR1Bw7gNcRrmSUxJ8OBqOEGHgpRJxu-nu9EBQry-eN_7F8wQ/viewform?usp=sf_link" class="item expertises-item">
-          <img
-          style="box-shadow: 5px 10px #0000;border-radius: 10px;"
-            src="assets/imgs/courses/C.png"
-            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-            class="box-shadow"
-          />
-          <div class="course-title mb-2 pt-2">
-            <h5 class=".text_colors" style="color:#282E54">C Programming <br>Language</h5>
-            
-            <p style="float:left">
-                           Wed <br />
-              & <br />
-              Sat
-            </p>
-          </div>
-          <div class="course-body">
-            <h6>Educator: <span>Rahul Sinha, Sanskar Keshri and Sourav Jana</span></h6>
-          </div>
-        </a>
-
-        <a href="https://forms.gle/MBAiSo5PhdnxBYm47" class="item expertises-item">
-          <img
-          style="box-shadow: 5px 10px #0000;border-radius: 10px;"
-            src="assets/imgs/courses/java.jpeg"
-            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-            class="box-shadow"
-          />
-          <div class="course-title mb-2 pt-2">
-            <h5 class=".text_colors" style="color:#282E54">Java Programming Language</h5>
-            <p class="text-center">
-              Mon <br />
-              & <br />
-              Thu
-            </p>
-          </div>
-          <div class="course-body">
-            <h6>Educator: <span>Tushar Subhra Bouri and Arnab Mukherjee</span></h6>
-          </div>
-        </a>
-        <a href="https://forms.gle/1BuGr262gDhTnXhF6" class="item expertises-item">
-          <img
-          style="box-shadow: 5px 10px #0000;border-radius: 10px;"
-            src="assets/imgs/courses/web.jpeg"
-            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-            class="box-shadow"
-          />
-          <div class="course-title mb-2 pt-2">
-            <h5 class=".text_colors" style="color:#282E54">Web Development </h5>
-            <p class="text-center">
-              Saturday<br />
-            </p>
-          </div>
-          <div class="course-body">
-            <h6>Educator: <span>Abhishek Dasgupta and Subhajit Gorai</span></h6>
-          </div>
-        </a>
-        <a href="https://forms.gle/88oFw8HkomgKYtDS7" class="item expertises-item">
-          <img
-          style="box-shadow: 5px 10px #0000;border-radius: 10px;"
-            src="assets/imgs/courses/android.png"
-            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-            class="box-shadow"
-          />
-          <div class="course-title mb-2 pt-2">
-            <h5 class=".text_colors" style="color:#282E54">
+      <a href="https://forms.gle/MBAiSo5PhdnxBYm47" class="item expertises-item">
+        <img style="box-shadow: 5px 10px #0000;border-radius: 10px;" src="assets/imgs/courses/java.jpeg"
+          alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+          class="box-shadow" />
+        <div class="course-title mb-2 pt-2">
+          <h5 class=".text_colors" style="color:#282E54">Java Programming Language</h5>
+          <p class="text-center">
+            Mon <br />
+            & <br />
+            Thu
+          </p>
+        </div>
+        <div class="course-body">
+          <h6>Educator: <span>Tushar Subhra Bouri and Arnab Mukherjee</span></h6>
+        </div>
+      </a>
+      <a href="https://forms.gle/1BuGr262gDhTnXhF6" class="item expertises-item">
+        <img style="box-shadow: 5px 10px #0000;border-radius: 10px;" src="assets/imgs/courses/web.jpeg"
+          alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+          class="box-shadow" />
+        <div class="course-title mb-2 pt-2">
+          <h5 class=".text_colors" style="color:#282E54">Web Development </h5>
+          <p class="text-center">
+            Saturday<br />
+          </p>
+        </div>
+        <div class="course-body">
+          <h6>Educator: <span>Abhishek Dasgupta and Subhajit Gorai</span></h6>
+        </div>
+      </a>
+      <a href="https://forms.gle/88oFw8HkomgKYtDS7" class="item expertises-item">
+        <img style="box-shadow: 5px 10px #0000;border-radius: 10px;" src="assets/imgs/courses/android.png"
+          alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+          class="box-shadow" />
+        <div class="course-title mb-2 pt-2">
+          <h5 class=".text_colors" style="color:#282E54">
             Android Development in Kotlin</h5>
-            <p class="text-center">Sunday</p>
-          </div>
-          <div class="course-body">
-            <h6>Educator: <span>Mimo Patra</span></h6>
-          </div>
-        </a>
-        <!-- <a href="">
+          <p class="text-center">Sunday</p>
+        </div>
+        <div class="course-body">
+          <h6>Educator: <span>Mimo Patra</span></h6>
+        </div>
+      </a>
+      <!-- <a href="">
           <img
           style="box-shadow: 5px 10px #0000;border-radius: 10px;"
             src="assets/imgs/courses/DSA.png"
@@ -503,7 +433,7 @@
             <h6>Educator: <span>Sourav Jana</span></h6>
           </div>
         </a> -->
-        <!-- <a href="javascript:void(0)" class="item expertises-item">
+      <!-- <a href="javascript:void(0)" class="item expertises-item">
           <img
             src="assets/imgs/courses/dsajava.png"
             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
@@ -520,359 +450,301 @@
             <h6>Educator: <span>Tushar Subhra Bouri and Arnab Mukherjee</span></h6>
           </div>
         </a> -->
-        <a href="javascript:void(0)" class="item expertises-item">
-          <img
-          style="box-shadow: 5px 10px #0000;border-radius: 10px;"
-            src="assets/imgs/courses/python.png"
-            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-            class="box-shadow"
-          />
-          <div class="course-title mb-2 pt-2">
-            <h5 class=".text_colors" style="color:#282E54">
+      <a href="javascript:void(0)" class="item expertises-item">
+        <img style="box-shadow: 5px 10px #0000;border-radius: 10px;" src="assets/imgs/courses/python.png"
+          alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+          class="box-shadow" />
+        <div class="course-title mb-2 pt-2">
+          <h5 class=".text_colors" style="color:#282E54">
             Python and AI/ML</h5>
-            <p class="text-center">Coming Soon...</p>
-          </div>
-          <div class="course-body">
-            <h6>Educator: <span>Abhishek Dasgupta</span></h6>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section class="section" id="testmonial">
-      <div class="container">
-        <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-        <h3 class="section-title">Testmonials</h3>
-
-        <div
-          id="owl-testmonial"
-          class="owl-carousel owl-theme mt-4"
-        >
-          <div class="item">
-            <div class="textmonial-item">
-              <img
-                src="assets/imgs/Kunal.jpeg"
-                class="avatar"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-              />
-              <div class="des">
-                <h5 class="ti-quote-left font-weight-bold"></h5>
-                <p>
-                  iCoders journey was an amazing experience. It helped in growing my confidence in public speaking and managerial skills. As the Event Manager of iCoders during my college days, I gained a lot of technical and non technical skills. It is a great platform to learn and grow in the much needed skills of IT industry for all BCREC students.
-                </p>
-                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
-
-                <div class="line"></div>
-                <h6 class="name">Kunal Aggarwal</h6>
-                <h6 class="xs-font">Event Manager</h6>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="textmonial-item">
-              <img
-                src="assets/imgs/Shrestha.jpeg"
-                class="avatar"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-              />
-              <div class="des">
-                <h5 class="ti-quote-left font-weight-bold"></h5>
-                <p>
-                  As a secretary of iCoders I feel obliged to hold this position for this long. Working with the team members of iCoders and the core members is something I gained a lot of experience and knowledge throughout the span of two years. It was great working with such a co-operative team. I really feel privileged to become a part of iCoders
-                </p>
-                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
-
-                <div class="line"></div>
-                <h6 class="name">Shrestha Mukherjee</h6>
-                <h6 class="xs-font">Secratary(2020-2022)</h6>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="textmonial-item">
-              <img
-                src="assets/imgs/utpal.png"
-                class="avatar"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-              />
-              <div class="des">
-                <h5 class="ti-quote-left font-weight-bold"></h5>
-                <p>
-                  iCoders is one of the best platforms for students of BCREC to learn the technical concepts and grow themselves, Specially the technical knowledge of the IT industry and stuff related to coding. I was Vice President and President of this club during my college days and it helped me as well as my juniors to learn a lot IT related stuff and as well as overall development.
-                </p>
-                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
-
-                <div class="line"></div>
-                <h6 class="name">Utpal Kumar</h6>
-                <h6 class="xs-font">President(2020-2022)</h6>
-              </div>
-            </div>
-          </div>
+          <p class="text-center">Coming Soon...</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section bg-overlay">
-      <div class="container">
-        <div class="infos mb-md-2">
-          <div class="title">
-            <h6 class="subtitle font-weight-normal mb-2">
-              What are you waiting for
-            </h6>
-            <p class="font-small">Kick-start your coding journey today with</p>
-            <h2>iCoders</h2>
-          </div>
-          <div class="socials">
-            <div class="row justify-content-between">
-              <div class="col ml-5 mr-5">
-                <a
-                  class="nav-link btn btn-primary py-2"
-                  href="https://bit.ly/3t4aSkF"
-                  >Join Us</a
-                >
-              </div>
-              <div class="col">
-                <h6 class="subtitle font-weight-normal mb-1">Social Media</h6>
-                <div class="social-links">
-                  <a href="https://www.facebook.com/iCoders" class="link pr-1"
-                    ><i class="ti-facebook"></i
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/company/icoders"
-                    class="link pr-1"
-                    ><i class="ti-linkedin"></i
-                  ></a>
-                  <a
-                    href="https://www.instagram.com/bcrec_icoders/"
-                    class="link pr-1"
-                    ><i class="ti-instagram"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="course-body">
+          <h6>Educator: <span>Abhishek Dasgupta</span></h6>
         </div>
-      </div>
-    </section>
+      </a>
+    </div>
+  </section>
 
-    <section class="section" id="blog">
-      <div class="container mb-3">
-        <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-        <h3 class="section-title mb-5">Our Blog</h3>
+  <section class="section" id="testmonial">
+    <div class="container">
+      <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+      <h3 class="section-title">Testmonials</h3>
 
-        <div class="blog-wrapper">
-          <div class="img-wrapper">
-            <img
-              src="assets/imgs/img-3.jpg"
-              alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
-            />
-            <div class="date-container">
-              <h6 class="day">22</h6>
-              <h6 class="mun">Jan</h6>
-            </div>
-          </div>
-          <div class="txt-wrapper">
-            <h4 class="blog-title">Lorem ipsum dolor.</h4>
-            <p>
-              iCoders is one of the best platforms for students of BCREC to learn the technical concepts and grow themselves, Specially the technical knowledge of the IT industry and stuff related to coding. I was Vice President and President of this club during my college days and it helped me as well as my juniors to learn a lot IT related stuff and as well as overall development.
-            </p>
-
-            <a href="#" class="badge badge-info">Graphic Design</a>
-
-            <h6 class="blog-footer">
-              <a href="javascript:void(0)"><i class="ti-user"></i> Admin </a> |
-              <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 213 </a>
-              |
-              <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
-            </h6>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section pb-0">
-      <div class="container">
-        <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-        <h3 class="section-title mb-5">Contact Us</h3>
-
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md-8 col-lg-7">
-            <form class="contact-form" action="https://formspree.io/f/xyyljeqy" method="post">
-              <div class="form-row">
-                <div class="col form-group">
-                  <input type="text" class="form-control" placeholder="Name" 
-                  name="name"
-                  id="name"
-                  />
-                </div>
-                <div class="col form-group">
-                  <input
-                    type="email"
-                    name="email"
-                    class="form-control"
-                    placeholder="Email"
-                    id="email"
-                  />
-                </div>
-              </div>
-              <div class="form-group">
-                <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="5"
-                  class="form-control"
-                  placeholder="Your Message"
-                  id="message"
-                ></textarea>
-              </div>
-              <div class="form-group">
-                <input
-                  type="submit"
-                  class="btn btn-primary btn-block"
-                  value="Send Message"
-                  id="sbtns"
-                />
-              </div>
-            </form>
-          </div>
-          <div class="col-md-4 d-none d-md-block order-1">
-            <ul class="list">
-              <li class="list-head">
-                <h6>CONTACT INFO</h6>
-              </li>
-              <li class="list-body">
-                <p class="py-2">
-                  Contact us and we'll get back to you within 24 hours.
-                </p>
-                <p class="py-2" style="display: flex">
-                  <span><i class="ti-location-pin mr-1"></i></span>
-                  <span>
-                    3rd Floor, Main Building,<br />
-                    Dr. B C Roy Engineering College,<br />
-                    Durgapur
-                  </span>
-                </p>
-                <p class="py-2">
-                  <i class="ti-email"></i> icodersdgp@gmail.com
-                </p>
-                <p class="py-2">
-                  <i class="ti-microphone"></i> Utpal (President) : 8513887739
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <footer class="footer mt-5 border-top">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-6 text-center text-md-left">
-              <p class="mb-0">
-                Copyright
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                &copy;
-                <a target="_blank" href="http://www.devcrud.com">DevCRUD</a>
+      <div id="owl-testmonial" class="owl-carousel owl-theme mt-4">
+        <div class="item">
+          <div class="textmonial-item">
+            <img src="assets/imgs/Kunal.jpeg" class="avatar"
+              alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" />
+            <div class="des">
+              <h5 class="ti-quote-left font-weight-bold"></h5>
+              <p>
+                iCoders journey was an amazing experience. It helped in growing my confidence in public speaking and
+                managerial skills. As the Event Manager of iCoders during my college days, I gained a lot of technical
+                and non technical skills. It is a great platform to learn and grow in the much needed skills of IT
+                industry for all BCREC students.
               </p>
+              <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+              <div class="line"></div>
+              <h6 class="name">Kunal Aggarwal</h6>
+              <h6 class="xs-font">Event Manager</h6>
             </div>
-            <div class="col-md-6 text-center text-md-right">
+          </div>
+        </div>
+        <div class="item">
+          <div class="textmonial-item">
+            <img src="assets/imgs/Shrestha.jpeg" class="avatar"
+              alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" />
+            <div class="des">
+              <h5 class="ti-quote-left font-weight-bold"></h5>
+              <p>
+                As a secretary of iCoders I feel obliged to hold this position for this long. Working with the team
+                members of iCoders and the core members is something I gained a lot of experience and knowledge
+                throughout the span of two years. It was great working with such a co-operative team. I really feel
+                privileged to become a part of iCoders
+              </p>
+              <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+              <div class="line"></div>
+              <h6 class="name">Shrestha Mukherjee</h6>
+              <h6 class="xs-font">Secratary(2020-2022)</h6>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="textmonial-item">
+            <img src="assets/imgs/utpal.png" class="avatar"
+              alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" />
+            <div class="des">
+              <h5 class="ti-quote-left font-weight-bold"></h5>
+              <p>
+                iCoders is one of the best platforms for students of BCREC to learn the technical concepts and grow
+                themselves, Specially the technical knowledge of the IT industry and stuff related to coding. I was Vice
+                President and President of this club during my college days and it helped me as well as my juniors to
+                learn a lot IT related stuff and as well as overall development.
+              </p>
+              <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+              <div class="line"></div>
+              <h6 class="name">Utpal Kumar</h6>
+              <h6 class="xs-font">President(2020-2022)</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-overlay">
+    <div class="container">
+      <div class="infos mb-md-2">
+        <div class="title">
+          <h6 class="subtitle font-weight-normal mb-2">
+            What are you waiting for
+          </h6>
+          <p class="font-small">Kick-start your coding journey today with</p>
+          <h2>iCoders</h2>
+        </div>
+        <div class="socials">
+          <div class="row justify-content-between">
+            <div class="col ml-5 mr-5">
+              <a class="nav-link btn btn-primary py-2" href="https://bit.ly/3t4aSkF">Join Us</a>
+            </div>
+            <div class="col">
+              <h6 class="subtitle font-weight-normal mb-1">Social Media</h6>
               <div class="social-links">
-                <a href="javascript:void(0)" class="link"
-                  ><i class="ti-facebook"></i
-                ></a>
-                <a href="javascript:void(0)" class="link"
-                  ><i class="ti-twitter-alt"></i
-                ></a>
-                <a href="javascript:void(0)" class="link"
-                  ><i class="ti-google"></i
-                ></a>
-                <a href="javascript:void(0)" class="link"
-                  ><i class="ti-pinterest-alt"></i
-                ></a>
-                <a href="javascript:void(0)" class="link"
-                  ><i class="ti-instagram"></i
-                ></a>
-                <a href="javascript:void(0)" class="link"
-                  ><i class="ti-rss"></i
-                ></a>
+                <a href="https://www.facebook.com/iCoders" class="link pr-1"><i class="ti-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/icoders" class="link pr-1"><i class="ti-linkedin"></i></a>
+                <a href="https://www.instagram.com/bcrec_icoders/" class="link pr-1"><i class="ti-instagram"></i></a>
               </div>
             </div>
           </div>
-        </footer>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
-      integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+  <section class="section" id="blog">
+    <div class="container mb-3">
+      <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+      <h3 class="section-title mb-5">Our Blog</h3>
 
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+      <div class="blog-wrapper">
+        <div class="img-wrapper">
+          <img src="assets/imgs/img-3.jpg"
+            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page" />
+          <div class="date-container">
+            <h6 class="day">22</h6>
+            <h6 class="mun">Jan</h6>
+          </div>
+        </div>
+        <div class="txt-wrapper">
+          <h4 class="blog-title">Lorem ipsum dolor.</h4>
+          <p>
+            iCoders is one of the best platforms for students of BCREC to learn the technical concepts and grow
+            themselves, Specially the technical knowledge of the IT industry and stuff related to coding. I was Vice
+            President and President of this club during my college days and it helped me as well as my juniors to learn
+            a lot IT related stuff and as well as overall development.
+          </p>
 
-    <!-- Owl carousel  -->
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.js"></script>
+          <a href="#" class="badge badge-info">Graphic Design</a>
 
-    <!-- Ollie js -->
-    <script src="assets/js/Ollie.js"></script>
-    <script>
-      function toggleFormValid() {
-        var name = document.getElementById("name").value;
-        var mail = document.getElementById("emails").value;
-        var phone = document.getElementById("phone").value;
-        var msg = document.getElementById("message").value;
-        var btn = document.getElementById("sbtns").value;
+          <h6 class="blog-footer">
+            <a href="javascript:void(0)"><i class="ti-user"></i> Admin </a> |
+            <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 213 </a>
+            |
+            <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
+          </h6>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        if (name == "" || mail == "" || phone == "" || msg == "") {
-          document.getElementById("sbtns").disabled = true;
-          console.log("invalid");
-        } else {
-          document.getElementById("sbtns").disabled = false;
-          console.log("Valid!");
-        }
+  <section id="contact" class="section pb-0">
+    <div class="container">
+      <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+      <h3 class="section-title mb-5">Contact Us</h3>
+
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-8 col-lg-7">
+          <form class="contact-form" action="https://formspree.io/f/xyyljeqy" method="post">
+            <div class="form-row">
+              <div class="col form-group">
+                <input type="text" class="form-control" placeholder="Name" name="name" id="name" />
+              </div>
+              <div class="col form-group">
+                <input type="email" name="email" class="form-control" placeholder="Email" id="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Your Message"
+                id="message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary btn-block" value="Send Message" id="sbtns" />
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4 d-none d-md-block order-1">
+          <ul class="list">
+            <li class="list-head">
+              <h6>CONTACT INFO</h6>
+            </li>
+            <li class="list-body">
+              <p class="py-2">
+                Contact us and we'll get back to you within 24 hours.
+              </p>
+              <p class="py-2" style="display: flex">
+                <span><i class="ti-location-pin mr-1"></i></span>
+                <span>
+                  3rd Floor, Main Building,<br />
+                  Dr. B C Roy Engineering College,<br />
+                  Durgapur
+                </span>
+              </p>
+              <p class="py-2">
+                <i class="ti-email"></i> icodersdgp@gmail.com
+              </p>
+              <p class="py-2">
+                <i class="ti-microphone"></i> Utpal (President) : 8513887739
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer mt-5 border-top">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 text-center text-md-left">
+            <p class="mb-0">
+              Copyright
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              &copy;
+              <a target="_blank" href="http://www.devcrud.com">DevCRUD</a>
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-right">
+            <div class="social-links">
+              <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+              <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+              <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+              <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+              <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+              <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- core  -->
+  <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+    integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+  <!-- bootstrap 3 affix -->
+  <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+  <!-- Owl carousel  -->
+  <script src="assets/vendors/owl-carousel/js/owl.carousel.js"></script>
+
+  <!-- Ollie js -->
+  <script src="assets/js/Ollie.js"></script>
+  <script>
+    function toggleFormValid() {
+      var name = document.getElementById("name").value;
+      var mail = document.getElementById("emails").value;
+      var phone = document.getElementById("phone").value;
+      var msg = document.getElementById("message").value;
+      var btn = document.getElementById("sbtns").value;
+
+      if (name == "" || mail == "" || phone == "" || msg == "") {
+        document.getElementById("sbtns").disabled = true;
+        console.log("invalid");
+      } else {
+        document.getElementById("sbtns").disabled = false;
+        console.log("Valid!");
       }
+    }
 
-      function Validation() {
-        var name = document.getElementById("name").value;
-        var mail = document.getElementById("emails").value;
-        var msg = document.getElementById("message").value;
-        var btn = document.getElementById("sbtns").value;
-        if (name == "" || mail == "" || phone == "" || msg == "") {
-          alert("All Fields are Required");
-        }
-        if (!isValidname(name)) {
-          alert("Invalid Name");
-          document.getElementById("sbtns").disabled = true;
-        }
-        if (!isValidEmail(mail)) {
-          alert("Invalid Mail Id");
-          document.getElementById("sbtns").disabled = true;
-        }
+    function Validation() {
+      var name = document.getElementById("name").value;
+      var mail = document.getElementById("emails").value;
+      var msg = document.getElementById("message").value;
+      var btn = document.getElementById("sbtns").value;
+      if (name == "" || mail == "" || phone == "" || msg == "") {
+        alert("All Fields are Required");
       }
+      if (!isValidname(name)) {
+        alert("Invalid Name");
+        document.getElementById("sbtns").disabled = true;
+      }
+      if (!isValidEmail(mail)) {
+        alert("Invalid Mail Id");
+        document.getElementById("sbtns").disabled = true;
+      }
+    }
 
-      function isValidname(name) {
-        var regex = /^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$/;
-        return regex.test(name);
-      }
+    function isValidname(name) {
+      var regex = /^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$/;
+      return regex.test(name);
+    }
 
-      function isValidEmail(mail) {
-        var regex =
-          /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-        return regex.test(mail);
-      }
-    </script>
-  </body>
+    function isValidEmail(mail) {
+      var regex =
+        /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      return regex.test(mail);
+    }
+  </script>
+</body>
 </html>
